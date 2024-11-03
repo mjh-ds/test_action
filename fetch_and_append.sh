@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Fetch data from an API and append to CSV
+
+
+# Parse the JSON data to extract needed fields
+# Assuming the JSON response is a simple list of records
+echo "$(date '+%Y-%m-%d %H:%M:%S'), NEW_DATA"  >> "data/data.csv"
