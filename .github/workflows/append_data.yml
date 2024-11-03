@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *'  # Runs daily at midnight
   workflow_dispatch:  # Allows manual triggering
 
+env:
+  SUPER_SECRET_API: ${{ secrets.SUPER_SECRET_API }}
+
 jobs:
   append_data:
     runs-on: ubuntu-latest
