@@ -5,4 +5,4 @@
 
 # Parse the JSON data to extract needed fields
 # Assuming the JSON response is a simple list of records
-echo "$(date '+%Y-%m-%d %H:%M:%S'), NEW_DATA, $SUPER_SECRET_API"  >> "data/data.csv"
+echo "$(date '+%Y-%m-%d %H:%M:%S'), $SUPER_SECRET_API"  >> "data/data.csv"
