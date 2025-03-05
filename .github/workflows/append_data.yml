@@ -1,8 +1,8 @@
 name: Append Data to CSV
 
 on:
-  schedule:
-    - cron: '1/15 * * * *' 
+  #schedule:
+  #  - cron: '1/15 * * * *' 
   workflow_dispatch:  # Allows manual triggering
 
 env:
